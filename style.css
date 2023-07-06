@@ -7,16 +7,20 @@
     font-family: 'poppins', sans-serif;
 }
 
+body {
+    overflow: hidden;
+}
+
 .container {
     width: 100%;
-    min-height: auto;
+    min-height: 100vh;
     background-color: rgb(255, 255, 255);
 }
 
 nav {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     height:  80px;
     line-height:  80px;
     z-index: 111;
@@ -114,11 +118,11 @@ b {
 }
 
 .cols {
-    width: 100%;
+    width: 50%;
 }
 
 .cols0 {
-    width: 100%;
+    width: 60%;
     z-index: 5;
 }
 
@@ -229,5 +233,3 @@ button:hover {
         width: 155%;
     }
 }
-
-  
